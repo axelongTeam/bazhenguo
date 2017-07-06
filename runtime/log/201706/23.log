@@ -1,0 +1,306 @@
+---------------------------------------------------------------
+[ 2017-06-23T16:05:22+08:00 ] 192.168.1.222 192.168.1.222 GET /favicon.ico
+[ info ] weixin.test.com/favicon.ico [运行时间：0.086005s][吞吐率：11.63req/s] [内存消耗：839.65kb] [文件加载：29]
+[ info ] [ LANG ] E:\weixin\web\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'username=15505124589; userid=1317; Hm_lvt_aa2f9869e9b578122e4692de2bd9f80f=1498028937,1498039550',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'weixin.test.com',
+)
+[ info ] [ PARAM ] array (
+  '/favicon_ico' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-06-23T18:16:59+08:00 ] 192.168.1.222 192.168.1.222 GET /api/users/lists
+[ info ] weixin.test.com/api/users/lists [运行时间：0.162521s][吞吐率：6.15req/s] [内存消耗：1,599.55kb] [文件加载：40]
+[ info ] [ LANG ] E:\weixin\web\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'users',
+    2 => 'lists',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_aa2f9869e9b578122e4692de2bd9f80f=1498099060',
+  'accept-language' => 'zh-CN,zh;q=0.8,und;q=0.6',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'weixin.test.com',
+)
+[ info ] [ PARAM ] array (
+  '/api/users/lists' => '',
+)
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.000500s ]
+[ info ] [ RUN ] app\api\controller\Users->lists[ E:\weixin\web\application\api\controller\Users.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-06-23T18:16:59+08:00 ] 192.168.1.222 192.168.1.222 GET /favicon.ico
+[ info ] weixin.test.com/favicon.ico [运行时间：0.013502s][吞吐率：74.06req/s] [内存消耗：840.26kb] [文件加载：29]
+[ info ] [ LANG ] E:\weixin\web\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_aa2f9869e9b578122e4692de2bd9f80f=1498099060',
+  'accept-language' => 'zh-CN,zh;q=0.8,und;q=0.6',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://weixin.test.com/api/users/lists',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'weixin.test.com',
+)
+[ info ] [ PARAM ] array (
+  '/favicon_ico' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-06-23T18:17:04+08:00 ] 192.168.1.222 192.168.1.222 GET /api/users/register
+[ info ] weixin.test.com/api/users/register [运行时间：0.022002s][吞吐率：45.45req/s] [内存消耗：1,646.63kb] [文件加载：45]
+[ info ] [ LANG ] E:\weixin\web\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'users',
+    2 => 'register',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_aa2f9869e9b578122e4692de2bd9f80f=1498099060',
+  'accept-language' => 'zh-CN,zh;q=0.8,und;q=0.6',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'weixin.test.com',
+)
+[ info ] [ PARAM ] array (
+  '/api/users/register' => '',
+)
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\api\controller\Users->register[ E:\weixin\web\application\api\controller\Users.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-06-23T18:26:07+08:00 ] 192.168.1.222 192.168.1.222 POST /api/users/register
+[ info ] weixin.test.com/api/users/register [运行时间：0.092512s][吞吐率：10.81req/s] [内存消耗：1,681.29kb] [文件加载：47]
+[ info ] [ LANG ] E:\weixin\web\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'users',
+    2 => 'register',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-length' => '58',
+  'content-type' => 'application/json',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'null',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'host' => 'weixin.test.com',
+)
+[ info ] [ PARAM ] array (
+  '/api/users/register' => '',
+)
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\api\controller\Users->register[ E:\weixin\web\application\api\controller\Users.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-06-23T18:28:06+08:00 ] 192.168.1.222 192.168.1.222 POST /api/users/register
+[ info ] weixin.test.com/api/users/register [运行时间：0.035005s][吞吐率：28.57req/s] [内存消耗：1,683.08kb] [文件加载：47]
+[ info ] [ LANG ] E:\weixin\web\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'users',
+    2 => 'register',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-length' => '58',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'null',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'host' => 'weixin.test.com',
+)
+[ info ] [ PARAM ] array (
+  '/api/users/register' => '',
+  'nickname' => 'axelong',
+  'userpwd' => '123456',
+  'phone' => '15505124589',
+  'headpic' => '',
+)
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\api\controller\Users->register[ E:\weixin\web\application\api\controller\Users.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-06-23T18:28:18+08:00 ] 192.168.1.222 192.168.1.222 POST /api/users/register
+[ info ] weixin.test.com/api/users/register [运行时间：0.040005s][吞吐率：25.00req/s] [内存消耗：1,683.00kb] [文件加载：47]
+[ info ] [ LANG ] E:\weixin\web\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'users',
+    2 => 'register',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-length' => '49',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'null',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'host' => 'weixin.test.com',
+)
+[ info ] [ PARAM ] array (
+  '/api/users/register' => '',
+  'nickname' => 'axelong',
+  'userpwd' => '123456',
+  'phone' => '15505124589',
+)
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.000500s ]
+[ info ] [ RUN ] app\api\controller\Users->register[ E:\weixin\web\application\api\controller\Users.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-06-23T18:28:59+08:00 ] 192.168.1.222 192.168.1.222 POST /api/users/register
+[ info ] weixin.test.com/api/users/register [运行时间：0.017503s][吞吐率：57.13req/s] [内存消耗：1,027.62kb] [文件加载：34]
+[ info ] [ LANG ] E:\weixin\web\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'users',
+    2 => 'register',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-length' => '49',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'null',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'host' => 'weixin.test.com',
+)
+[ info ] [ PARAM ] array (
+  '/api/users/register' => '',
+  'nickname' => 'axelong',
+  'userpwd' => '123456',
+  'phone' => '15505124589',
+)
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\api\controller\Users->register[ E:\weixin\web\application\api\controller\Users.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-06-23T18:30:57+08:00 ] 192.168.1.222 192.168.1.222 POST /api/users/register
+[ info ] weixin.test.com/api/users/register [运行时间：0.016502s][吞吐率：60.60req/s] [内存消耗：1,028.03kb] [文件加载：34]
+[ info ] [ LANG ] E:\weixin\web\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'users',
+    2 => 'register',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-length' => '49',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'null',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'host' => 'weixin.test.com',
+)
+[ info ] [ PARAM ] array (
+  '/api/users/register' => '',
+  'nickname' => 'axelong',
+  'userpwd' => '123456',
+  'phone' => '15505124589',
+)
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.000500s ]
+[ info ] [ RUN ] app\api\controller\Users->register[ E:\weixin\web\application\api\controller\Users.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-06-23T18:31:12+08:00 ] 192.168.1.222 192.168.1.222 POST /api/users/register
+[ info ] weixin.test.com/api/users/register [运行时间：0.059008s][吞吐率：16.95req/s] [内存消耗：1,593.27kb] [文件加载：40]
+[ info ] [ LANG ] E:\weixin\web\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'users',
+    2 => 'register',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-length' => '49',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'null',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'host' => 'weixin.test.com',
+)
+[ info ] [ PARAM ] array (
+  '/api/users/register' => '',
+  'nickname' => 'axelong',
+  'userpwd' => '123456',
+  'phone' => '15505124589',
+)
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.000500s ]
+[ info ] [ RUN ] app\api\controller\Users->register[ E:\weixin\web\application\api\controller\Users.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File

@@ -1,0 +1,10 @@
+---------------------------------------------------------------
+[ 2017-06-30T15:09:46+08:00 ] 192.168.1.222 192.168.1.222 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015001s ] mysql:dbname=demo;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.026004s ]
+[ sql ] [ SQL ] SELECT * FROM `system_config` [ RunTime:0.000500s ]
+---------------------------------------------------------------
+[ 2017-06-30T15:09:51+08:00 ] 192.168.1.222 192.168.1.222 GET /api
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=demo;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.004001s ]
+[ sql ] [ SQL ] SELECT * FROM `system_config` [ RunTime:0.000000s ]

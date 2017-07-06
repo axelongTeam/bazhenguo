@@ -1,0 +1,417 @@
+---------------------------------------------------------------
+[ 2017-07-03T15:50:30+08:00 ] 192.168.1.222 192.168.1.222 GET /favicon.ico
+[ info ] weixin.test.com/favicon.ico [运行时间：0.087011s][吞吐率：11.49req/s] [内存消耗：839.73kb] [文件加载：29]
+[ info ] [ LANG ] E:\weixin\web\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'username=15505124589; userid=1317; Hm_lvt_aa2f9869e9b578122e4692de2bd9f80f=1498028937,1498039550,1498806587',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'weixin.test.com',
+)
+[ info ] [ PARAM ] array (
+  '/favicon_ico' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-03T15:50:32+08:00 ] 192.168.1.222 192.168.1.222 GET /api/users/login
+[ info ] weixin.test.com/api/users/login [运行时间：0.051507s][吞吐率：19.41req/s] [内存消耗：1,091.05kb] [文件加载：36]
+[ info ] [ LANG ] E:\weixin\web\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'users',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'username=15505124589; userid=1317; Hm_lvt_aa2f9869e9b578122e4692de2bd9f80f=1498028937,1498039550,1498806587',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'close',
+  'host' => 'weixin.test.com',
+)
+[ info ] [ PARAM ] array (
+  '/api/users/login' => '',
+)
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.000500s ]
+[ info ] [ RUN ] app\api\controller\Users->login[ E:\weixin\web\application\api\controller\Users.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-03T15:50:32+08:00 ] 192.168.1.222 192.168.1.222 GET /api/users/login
+[ info ] weixin.test.com/api/users/login [运行时间：0.019002s][吞吐率：52.63req/s] [内存消耗：1,091.52kb] [文件加载：36]
+[ info ] [ LANG ] E:\weixin\web\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'users',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'username=15505124589; userid=1317; Hm_lvt_aa2f9869e9b578122e4692de2bd9f80f=1498028937,1498039550,1498806587',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'weixin.test.com',
+)
+[ info ] [ PARAM ] array (
+  '/api/users/login' => '',
+)
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\api\controller\Users->login[ E:\weixin\web\application\api\controller\Users.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-03T15:50:33+08:00 ] 192.168.1.222 192.168.1.222 GET /favicon.ico
+[ info ] weixin.test.com/favicon.ico [运行时间：0.014002s][吞吐率：71.42req/s] [内存消耗：840.84kb] [文件加载：29]
+[ info ] [ LANG ] E:\weixin\web\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'username=15505124589; userid=1317; Hm_lvt_aa2f9869e9b578122e4692de2bd9f80f=1498028937,1498039550,1498806587',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://weixin.test.com/api/users/login',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'weixin.test.com',
+)
+[ info ] [ PARAM ] array (
+  '/favicon_ico' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-03T15:50:33+08:00 ] 192.168.1.222 192.168.1.222 GET /favicon.ico
+[ info ] weixin.test.com/favicon.ico [运行时间：0.012001s][吞吐率：83.33req/s] [内存消耗：840.30kb] [文件加载：29]
+[ info ] [ LANG ] E:\weixin\web\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'username=15505124589; userid=1317; Hm_lvt_aa2f9869e9b578122e4692de2bd9f80f=1498028937,1498039550,1498806587',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://weixin.test.com/api/users/login',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'weixin.test.com',
+)
+[ info ] [ PARAM ] array (
+  '/favicon_ico' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-03T15:52:19+08:00 ] 192.168.1.222 192.168.1.222 GET /api/users/login
+[ info ] weixin.test.com/api/users/login [运行时间：0.015002s][吞吐率：66.66req/s] [内存消耗：1,091.66kb] [文件加载：36]
+[ info ] [ LANG ] E:\weixin\web\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'users',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'username=15505124589; userid=1317; Hm_lvt_aa2f9869e9b578122e4692de2bd9f80f=1498028937,1498039550,1498806587',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'weixin.test.com',
+)
+[ info ] [ PARAM ] array (
+  '/api/users/login' => '',
+)
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\api\controller\Users->login[ E:\weixin\web\application\api\controller\Users.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-03T16:52:53+08:00 ] 192.168.1.222 192.168.1.222 GET /favicon.ico
+[ info ] weixin.test.com/favicon.ico [运行时间：0.014002s][吞吐率：71.42req/s] [内存消耗：839.70kb] [文件加载：29]
+[ info ] [ LANG ] E:\weixin\web\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'username=15505124589; userid=1317; Hm_lvt_aa2f9869e9b578122e4692de2bd9f80f=1498028937,1498039550,1498806587',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'weixin.test.com',
+)
+[ info ] [ PARAM ] array (
+  '/favicon_ico' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-03T16:52:57+08:00 ] 192.168.1.222 192.168.1.222 GET /api/users/login
+[ info ] weixin.test.com/api/users/login [运行时间：0.016502s][吞吐率：60.60req/s] [内存消耗：1,091.59kb] [文件加载：36]
+[ info ] [ LANG ] E:\weixin\web\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'users',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'username=15505124589; userid=1317; Hm_lvt_aa2f9869e9b578122e4692de2bd9f80f=1498028937,1498039550,1498806587',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'close',
+  'host' => 'weixin.test.com',
+)
+[ info ] [ PARAM ] array (
+  '/api/users/login' => '',
+)
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.000500s ]
+[ info ] [ RUN ] app\api\controller\Users->login[ E:\weixin\web\application\api\controller\Users.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-03T17:03:21+08:00 ] 192.168.1.222 192.168.1.222 GET /api/users/login
+[ info ] weixin.test.com/api/users/login [运行时间：0.015502s][吞吐率：64.51req/s] [内存消耗：1,091.70kb] [文件加载：36]
+[ info ] [ LANG ] E:\weixin\web\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'users',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'username=15505124589; userid=1317; Hm_lvt_aa2f9869e9b578122e4692de2bd9f80f=1498028937,1498039550,1498806587',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'weixin.test.com',
+)
+[ info ] [ PARAM ] array (
+  '/api/users/login' => '',
+)
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\api\controller\Users->login[ E:\weixin\web\application\api\controller\Users.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-03T18:05:49+08:00 ] 192.168.1.222 192.168.1.222 GET /favicon.ico
+[ info ] weixin.test.com/favicon.ico [运行时间：0.014002s][吞吐率：71.42req/s] [内存消耗：839.70kb] [文件加载：29]
+[ info ] [ LANG ] E:\weixin\web\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'username=15505124589; userid=1317; Hm_lvt_aa2f9869e9b578122e4692de2bd9f80f=1498028937,1498039550,1498806587',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'weixin.test.com',
+)
+[ info ] [ PARAM ] array (
+  '/favicon_ico' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-03T18:06:47+08:00 ] 192.168.1.222 192.168.1.222 GET /jquery.min.js
+[ info ] weixin.test.com/jquery.min.js [运行时间：0.025004s][吞吐率：39.99req/s] [内存消耗：840.31kb] [文件加载：29]
+[ info ] [ LANG ] E:\weixin\web\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'jquery.min.js',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'username=15505124589; userid=1317; Hm_lvt_aa2f9869e9b578122e4692de2bd9f80f=1498028937,1498039550,1498806587',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://weixin.test.com/test.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'host' => 'weixin.test.com',
+)
+[ info ] [ PARAM ] array (
+  '/jquery_min_js' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-03T18:06:48+08:00 ] 192.168.1.222 192.168.1.222 GET /jQueryRotate.js
+[ info ] weixin.test.com/jQueryRotate.js [运行时间：0.011501s][吞吐率：86.95req/s] [内存消耗：840.35kb] [文件加载：29]
+[ info ] [ LANG ] E:\weixin\web\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'jQueryRotate.js',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'username=15505124589; userid=1317; Hm_lvt_aa2f9869e9b578122e4692de2bd9f80f=1498028937,1498039550,1498806587',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://weixin.test.com/test.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'host' => 'weixin.test.com',
+)
+[ info ] [ PARAM ] array (
+  '/jQueryRotate_js' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-03T18:07:24+08:00 ] 192.168.1.222 192.168.1.222 GET /jquery.min.js
+[ info ] weixin.test.com/jquery.min.js [运行时间：0.018502s][吞吐率：54.05req/s] [内存消耗：840.57kb] [文件加载：29]
+[ info ] [ LANG ] E:\weixin\web\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'jquery.min.js',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'username=15505124589; userid=1317; Hm_lvt_aa2f9869e9b578122e4692de2bd9f80f=1498028937,1498039550,1498806587',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://weixin.test.com/test.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'accept' => '*/*',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'weixin.test.com',
+)
+[ info ] [ PARAM ] array (
+  '/jquery_min_js' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-03T18:07:40+08:00 ] 192.168.1.222 192.168.1.222 GET /jquery.min.js
+[ info ] weixin.test.com/jquery.min.js [运行时间：0.022003s][吞吐率：45.45req/s] [内存消耗：840.57kb] [文件加载：29]
+[ info ] [ LANG ] E:\weixin\web\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'jquery.min.js',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'username=15505124589; userid=1317; Hm_lvt_aa2f9869e9b578122e4692de2bd9f80f=1498028937,1498039550,1498806587',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://weixin.test.com/test.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'accept' => '*/*',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'weixin.test.com',
+)
+[ info ] [ PARAM ] array (
+  '/jquery_min_js' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-03T18:10:47+08:00 ] 192.168.1.222 192.168.1.222 GET /1.jpg
+[ info ] weixin.test.com/1.jpg [运行时间：0.014001s][吞吐率：71.42req/s] [内存消耗：840.66kb] [文件加载：29]
+[ info ] [ LANG ] E:\weixin\web\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '1.jpg',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'username=15505124589; userid=1317; Hm_lvt_aa2f9869e9b578122e4692de2bd9f80f=1498028937,1498039550,1498806587',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://weixin.test.com/test.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'weixin.test.com',
+)
+[ info ] [ PARAM ] array (
+  '/1_jpg' => '',
+)
+[ info ] [ LOG ] INIT File

@@ -1,0 +1,22 @@
+---------------------------------------------------------------
+[ 2017-06-23T18:16:59+08:00 ] 192.168.1.222 192.168.1.222 GET /api/users/lists
+[ sql ] [ DB ] CONNECT:[ UseTime:0.028003s ] mysql:dbname=demo;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yys_users` [ RunTime:0.026003s ]
+[ sql ] [ SQL ] SELECT * FROM `yys_users` WHERE  `status` = 1 ORDER BY level desc,points desc [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2017-06-23T18:26:07+08:00 ] 192.168.1.222 192.168.1.222 POST /api/users/register
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001500s ] mysql:dbname=demo;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yys_users` [ RunTime:0.009501s ]
+---------------------------------------------------------------
+[ 2017-06-23T18:28:06+08:00 ] 192.168.1.222 192.168.1.222 POST /api/users/register
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000500s ] mysql:dbname=demo;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yys_users` [ RunTime:0.009001s ]
+---------------------------------------------------------------
+[ 2017-06-23T18:28:18+08:00 ] 192.168.1.222 192.168.1.222 POST /api/users/register
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000500s ] mysql:dbname=demo;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yys_users` [ RunTime:0.009501s ]
+---------------------------------------------------------------
+[ 2017-06-23T18:31:12+08:00 ] 192.168.1.222 192.168.1.222 POST /api/users/register
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010501s ] mysql:dbname=demo;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yys_users` [ RunTime:0.011002s ]
+[ sql ] [ SQL ] INSERT INTO `yys_users` (`nickname` , `userpwd` , `phone` , `headpic` , `regtime` , `area`) VALUES ('axelong' , '7c4a8d09ca3762af61e59520943dc26494f8941b' , '15505124589' , '/static/upload\\2017-06-23\\d8617112b2263343a700e56717e5c4b470aa82bc.jpg' , 1498213872 , 224) [ RunTime:0.014501s ]

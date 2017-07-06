@@ -1,0 +1,12 @@
+---------------------------------------------------------------
+[ 2017-06-23T18:17:04+08:00 ] 192.168.1.222 192.168.1.222 GET /api/users/register
+[ error ] [0]method not exist:think\db\Query->add[E:\weixin\web\thinkphp\library\think\db\Query.php:93]
+---------------------------------------------------------------
+[ 2017-06-23T18:26:07+08:00 ] 192.168.1.222 192.168.1.222 POST /api/users/register
+[ error ] [10501]SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'nickname' cannot be null[E:\weixin\web\thinkphp\library\think\db\Connection.php:451]
+---------------------------------------------------------------
+[ 2017-06-23T18:28:06+08:00 ] 192.168.1.222 192.168.1.222 POST /api/users/register
+[ error ] [10501]SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'area' cannot be null[E:\weixin\web\thinkphp\library\think\db\Connection.php:451]
+---------------------------------------------------------------
+[ 2017-06-23T18:28:18+08:00 ] 192.168.1.222 192.168.1.222 POST /api/users/register
+[ error ] [10501]SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'area' cannot be null[E:\weixin\web\thinkphp\library\think\db\Connection.php:451]

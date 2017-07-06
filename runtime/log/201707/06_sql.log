@@ -1,0 +1,80 @@
+---------------------------------------------------------------
+[ 2017-07-06T09:15:30+08:00 ] 192.168.1.222 192.168.1.222 POST /api/users/login
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015002s ] mysql:dbname=demo;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yys_users` [ RunTime:0.006501s ]
+[ sql ] [ SQL ] SELECT * FROM `yys_users` WHERE  `phone` = 'admin'  AND `userpwd` = 'd033e22ae348aeb5660fc2140aec35850c4da997'  AND `status` = 1 LIMIT 1 [ RunTime:0.000500s ]
+---------------------------------------------------------------
+[ 2017-07-06T09:15:50+08:00 ] 192.168.1.222 192.168.1.222 POST /api/users/login
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010501s ] mysql:dbname=demo;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yys_users` [ RunTime:0.007001s ]
+[ sql ] [ SQL ] SELECT * FROM `yys_users` WHERE  `phone` = 'admin'  AND `userpwd` = '7c4a8d09ca3762af61e59520943dc26494f8941b'  AND `status` = 1 LIMIT 1 [ RunTime:0.000500s ]
+---------------------------------------------------------------
+[ 2017-07-06T09:17:30+08:00 ] 192.168.1.222 192.168.1.222 POST /api/users/login
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010501s ] mysql:dbname=demo;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yys_users` [ RunTime:0.007501s ]
+[ sql ] [ SQL ] SELECT * FROM `yys_users` WHERE  `phone` = 'admin'  AND `userpwd` = 'ffa1bf95b83ed878c70b031085efc971d074363c'  AND `status` = 1 LIMIT 1 [ RunTime:0.000500s ]
+---------------------------------------------------------------
+[ 2017-07-06T09:21:28+08:00 ] 192.168.1.222 192.168.1.222 POST /api/users/login
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:dbname=demo;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yys_users` [ RunTime:0.008001s ]
+[ sql ] [ SQL ] SELECT * FROM `yys_users` WHERE  `phone` = 'admin'  AND `userpwd` = 'ffa1bf95b83ed878c70b031085efc971d074363c'  AND `status` = 1 LIMIT 1 [ RunTime:0.000500s ]
+---------------------------------------------------------------
+[ 2017-07-06T09:22:09+08:00 ] 192.168.1.222 192.168.1.222 POST /api/users/login
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001500s ] mysql:dbname=demo;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yys_users` [ RunTime:0.006001s ]
+[ sql ] [ SQL ] SELECT * FROM `yys_users` WHERE  `phone` = 'admin'  AND `userpwd` = '7c4a8d09ca3762af61e59520943dc26494f8941b'  AND `status` = 1 LIMIT 1 [ RunTime:0.000500s ]
+---------------------------------------------------------------
+[ 2017-07-06T09:22:29+08:00 ] 192.168.1.222 192.168.1.222 POST /api/users/login
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011001s ] mysql:dbname=demo;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yys_users` [ RunTime:0.006001s ]
+[ sql ] [ SQL ] SELECT * FROM `yys_users` WHERE  `phone` = 'admin'  AND `userpwd` = 'ffa1bf95b83ed878c70b031085efc971d074363c'  AND `status` = 1 LIMIT 1 [ RunTime:0.000500s ]
+---------------------------------------------------------------
+[ 2017-07-06T09:23:13+08:00 ] 192.168.1.222 192.168.1.222 POST /api/users/login
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:dbname=demo;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yys_users` [ RunTime:0.007001s ]
+[ sql ] [ SQL ] SELECT * FROM `yys_users` WHERE  `phone` = 'admin'  AND `userpwd` = '7c4a8d09ca3762af61e59520943dc26494f8941b'  AND `status` = 1 LIMIT 1 [ RunTime:0.000500s ]
+---------------------------------------------------------------
+[ 2017-07-06T09:23:42+08:00 ] 192.168.1.222 192.168.1.222 POST /api/users/login
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001500s ] mysql:dbname=demo;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yys_users` [ RunTime:0.007501s ]
+[ sql ] [ SQL ] SELECT * FROM `yys_users` WHERE  `phone` = 'admin'  AND `userpwd` = 'ffa1bf95b83ed878c70b031085efc971d074363c'  AND `status` = 1 LIMIT 1 [ RunTime:0.000500s ]
+---------------------------------------------------------------
+[ 2017-07-06T09:24:26+08:00 ] 192.168.1.222 192.168.1.222 POST /api/users/login
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=demo;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yys_users` [ RunTime:0.008001s ]
+[ sql ] [ SQL ] SELECT * FROM `yys_users` WHERE  `phone` = 'admin'  AND `userpwd` = '7c4a8d09ca3762af61e59520943dc26494f8941b'  AND `status` = 1 LIMIT 1 [ RunTime:0.000500s ]
+---------------------------------------------------------------
+[ 2017-07-06T09:24:42+08:00 ] 192.168.1.222 192.168.1.222 POST /api/users/login
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:dbname=demo;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yys_users` [ RunTime:0.006001s ]
+[ sql ] [ SQL ] SELECT * FROM `yys_users` WHERE  `phone` = 'admin'  AND `userpwd` = 'ffa1bf95b83ed878c70b031085efc971d074363c'  AND `status` = 1 LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2017-07-06T09:25:10+08:00 ] 192.168.1.222 192.168.1.222 POST /api/users/login
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:dbname=demo;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yys_users` [ RunTime:0.006501s ]
+[ sql ] [ SQL ] SELECT * FROM `yys_users` WHERE  `phone` = 'admin'  AND `userpwd` = 'ffa1bf95b83ed878c70b031085efc971d074363c'  AND `status` = 1 LIMIT 1 [ RunTime:0.000500s ]
+---------------------------------------------------------------
+[ 2017-07-06T09:34:16+08:00 ] 192.168.1.222 192.168.1.222 POST /api/users/login
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001500s ] mysql:dbname=demo;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yys_users` [ RunTime:0.006501s ]
+[ sql ] [ SQL ] SELECT * FROM `yys_users` WHERE  `phone` = 'admin'  AND `userpwd` = 'd033e22ae348aeb5660fc2140aec35850c4da997'  AND `status` = 1 LIMIT 1 [ RunTime:0.000500s ]
+---------------------------------------------------------------
+[ 2017-07-06T09:35:53+08:00 ] 192.168.1.222 192.168.1.222 POST /api/users/login
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000500s ] mysql:dbname=demo;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yys_users` [ RunTime:0.005500s ]
+[ sql ] [ SQL ] SELECT * FROM `yys_users` WHERE  `phone` = 'admin'  AND `userpwd` = 'd033e22ae348aeb5660fc2140aec35850c4da997'  AND `status` = 1 LIMIT 1 [ RunTime:0.000500s ]
+---------------------------------------------------------------
+[ 2017-07-06T09:36:19+08:00 ] 192.168.1.222 192.168.1.222 POST /api/users/login
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010502s ] mysql:dbname=demo;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yys_users` [ RunTime:0.009001s ]
+[ sql ] [ SQL ] SELECT * FROM `yys_users` WHERE  `phone` = 'admin'  AND `userpwd` = 'd033e22ae348aeb5660fc2140aec35850c4da997'  AND `status` = 1 LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2017-07-06T09:37:29+08:00 ] 192.168.1.222 192.168.1.222 POST /api/users/login
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010502s ] mysql:dbname=demo;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yys_users` [ RunTime:0.008501s ]
+[ sql ] [ SQL ] SELECT * FROM `yys_users` WHERE  `phone` = 'admin'  AND `userpwd` = 'd033e22ae348aeb5660fc2140aec35850c4da997'  AND `status` = 1 LIMIT 1 [ RunTime:0.000500s ]
+---------------------------------------------------------------
+[ 2017-07-06T09:38:29+08:00 ] 192.168.1.222 192.168.1.222 POST /api/users/login
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010501s ] mysql:dbname=demo;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yys_users` [ RunTime:0.007001s ]
+[ sql ] [ SQL ] SELECT * FROM `yys_users` WHERE  `phone` = 'admin'  AND `userpwd` = 'd033e22ae348aeb5660fc2140aec35850c4da997'  AND `status` = 1 LIMIT 1 [ RunTime:0.000500s ]

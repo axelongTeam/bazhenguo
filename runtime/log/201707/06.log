@@ -1,0 +1,569 @@
+---------------------------------------------------------------
+[ 2017-07-06T09:15:30+08:00 ] 192.168.1.222 192.168.1.222 POST /api/users/login
+[ info ] 192.168.1.222/api/users/login [运行时间：0.131016s][吞吐率：7.63req/s] [内存消耗：1,666.15kb] [文件加载：42]
+[ info ] [ LANG ] E:\weixin\web\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'users',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'accept-encoding' => 'gzip,deflate',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 4.4.2; Coolpad 5891 Build/JZO54K) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Mobile Safari/537.36 Html5Plus/1.0',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'file://',
+  'accept' => 'application/json',
+  'content-length' => '25',
+  'connection' => 'close',
+  'host' => '192.168.1.222',
+)
+[ info ] [ PARAM ] array (
+  '/api/users/login' => '',
+  'phone' => 'admin',
+  'userpwd' => 'admin',
+)
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.000500s ]
+[ info ] [ RUN ] app\api\controller\Users->login[ E:\weixin\web\application\api\controller\Users.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-06T09:15:50+08:00 ] 192.168.1.222 192.168.1.222 POST /api/users/login
+[ info ] 192.168.1.222/api/users/login [运行时间：0.039005s][吞吐率：25.64req/s] [内存消耗：1,666.22kb] [文件加载：42]
+[ info ] [ LANG ] E:\weixin\web\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'users',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'accept-encoding' => 'gzip,deflate',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 4.4.2; Coolpad 5891 Build/JZO54K) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Mobile Safari/537.36 Html5Plus/1.0',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'file://',
+  'accept' => 'application/json',
+  'content-length' => '26',
+  'connection' => 'close',
+  'host' => '192.168.1.222',
+)
+[ info ] [ PARAM ] array (
+  '/api/users/login' => '',
+  'phone' => 'admin',
+  'userpwd' => '123456',
+)
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.000500s ]
+[ info ] [ RUN ] app\api\controller\Users->login[ E:\weixin\web\application\api\controller\Users.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-06T09:17:30+08:00 ] 192.168.1.222 192.168.1.222 POST /api/users/login
+[ info ] 192.168.1.222/api/users/login [运行时间：0.039005s][吞吐率：25.64req/s] [内存消耗：1,666.72kb] [文件加载：42]
+[ info ] [ LANG ] E:\weixin\web\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'users',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'accept-encoding' => 'gzip,deflate',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 4.4.2; Coolpad 5891 Build/JZO54K) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Mobile Safari/537.36 Html5Plus/1.0',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'file://',
+  'accept' => 'application/json',
+  'content-length' => '26',
+  'connection' => 'close',
+  'host' => '192.168.1.222',
+)
+[ info ] [ PARAM ] array (
+  '/api/users/login' => '',
+  'phone' => 'admin',
+  'userpwd' => '132456',
+)
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.000500s ]
+[ info ] [ RUN ] app\api\controller\Users->login[ E:\weixin\web\application\api\controller\Users.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-06T09:17:54+08:00 ] 192.168.1.222 192.168.1.222 GET /favicon.ico
+[ info ] weixin.test.com/favicon.ico [运行时间：0.059007s][吞吐率：16.95req/s] [内存消耗：839.67kb] [文件加载：29]
+[ info ] [ LANG ] E:\weixin\web\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'username=15505124589; userid=1317; Hm_lvt_aa2f9869e9b578122e4692de2bd9f80f=1498028937,1498039550,1498806587',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'weixin.test.com',
+)
+[ info ] [ PARAM ] array (
+  '/favicon_ico' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-06T09:21:28+08:00 ] 192.168.1.222 192.168.1.222 POST /api/users/login
+[ info ] 192.168.1.222/api/users/login [运行时间：0.044506s][吞吐率：22.47req/s] [内存消耗：1,666.99kb] [文件加载：43]
+[ info ] [ LANG ] E:\weixin\web\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'users',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'accept-encoding' => 'gzip,deflate',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 4.4.2; Coolpad 5891 Build/JZO54K) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Mobile Safari/537.36 Html5Plus/1.0',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'file://',
+  'accept' => 'application/json',
+  'content-length' => '26',
+  'connection' => 'close',
+  'host' => '192.168.1.222',
+)
+[ info ] [ PARAM ] array (
+  '/api/users/login' => '',
+  'phone' => 'admin',
+  'userpwd' => '132456',
+)
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.000500s ]
+[ info ] [ RUN ] app\api\controller\Users->login[ E:\weixin\web\application\api\controller\Users.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-06T09:22:09+08:00 ] 192.168.1.222 192.168.1.222 POST /api/users/login
+[ info ] 192.168.1.222/api/users/login [运行时间：0.035004s][吞吐率：28.57req/s] [内存消耗：1,667.05kb] [文件加载：43]
+[ info ] [ LANG ] E:\weixin\web\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'users',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'accept-encoding' => 'gzip,deflate',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 4.4.2; Coolpad 5891 Build/JZO54K) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Mobile Safari/537.36 Html5Plus/1.0',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'file://',
+  'accept' => 'application/json',
+  'content-length' => '26',
+  'connection' => 'close',
+  'host' => '192.168.1.222',
+)
+[ info ] [ PARAM ] array (
+  '/api/users/login' => '',
+  'phone' => 'admin',
+  'userpwd' => '123456',
+)
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.000500s ]
+[ info ] [ RUN ] app\api\controller\Users->login[ E:\weixin\web\application\api\controller\Users.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-06T09:22:29+08:00 ] 192.168.1.222 192.168.1.222 POST /api/users/login
+[ info ] 192.168.1.222/api/users/login [运行时间：0.038005s][吞吐率：26.31req/s] [内存消耗：1,667.16kb] [文件加载：43]
+[ info ] [ LANG ] E:\weixin\web\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'users',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'accept-encoding' => 'gzip,deflate',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 4.4.2; Coolpad 5891 Build/JZO54K) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Mobile Safari/537.36 Html5Plus/1.0',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'file://',
+  'accept' => 'application/json',
+  'content-length' => '26',
+  'connection' => 'close',
+  'host' => '192.168.1.222',
+)
+[ info ] [ PARAM ] array (
+  '/api/users/login' => '',
+  'phone' => 'admin',
+  'userpwd' => '132456',
+)
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.000500s ]
+[ info ] [ RUN ] app\api\controller\Users->login[ E:\weixin\web\application\api\controller\Users.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-06T09:23:13+08:00 ] 192.168.1.222 192.168.1.222 POST /api/users/login
+[ info ] 192.168.1.222/api/users/login [运行时间：0.039005s][吞吐率：25.64req/s] [内存消耗：1,666.95kb] [文件加载：43]
+[ info ] [ LANG ] E:\weixin\web\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'users',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'accept-encoding' => 'gzip,deflate',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 4.4.2; Coolpad 5891 Build/JZO54K) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Mobile Safari/537.36 Html5Plus/1.0',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'file://',
+  'accept' => 'application/json',
+  'content-length' => '26',
+  'connection' => 'close',
+  'host' => '192.168.1.222',
+)
+[ info ] [ PARAM ] array (
+  '/api/users/login' => '',
+  'phone' => 'admin',
+  'userpwd' => '123456',
+)
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.000500s ]
+[ info ] [ RUN ] app\api\controller\Users->login[ E:\weixin\web\application\api\controller\Users.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-06T09:23:42+08:00 ] 192.168.1.222 192.168.1.222 POST /api/users/login
+[ info ] 192.168.1.222/api/users/login [运行时间：0.049506s][吞吐率：20.20req/s] [内存消耗：1,674.04kb] [文件加载：44]
+[ info ] [ LANG ] E:\weixin\web\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'users',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'accept-encoding' => 'gzip,deflate',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 4.4.2; Coolpad 5891 Build/JZO54K) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Mobile Safari/537.36 Html5Plus/1.0',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'file://',
+  'accept' => 'application/json',
+  'content-length' => '26',
+  'connection' => 'close',
+  'host' => '192.168.1.222',
+)
+[ info ] [ PARAM ] array (
+  '/api/users/login' => '',
+  'phone' => 'admin',
+  'userpwd' => '132456',
+)
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\api\controller\Users->login[ E:\weixin\web\application\api\controller\Users.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-06T09:24:26+08:00 ] 192.168.1.222 192.168.1.222 POST /api/users/login
+[ info ] 192.168.1.222/api/users/login [运行时间：0.031504s][吞吐率：31.74req/s] [内存消耗：1,666.95kb] [文件加载：43]
+[ info ] [ LANG ] E:\weixin\web\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'users',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'accept-encoding' => 'gzip,deflate',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 4.4.2; Coolpad 5891 Build/JZO54K) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Mobile Safari/537.36 Html5Plus/1.0',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'file://',
+  'accept' => 'application/json',
+  'content-length' => '26',
+  'connection' => 'close',
+  'host' => '192.168.1.222',
+)
+[ info ] [ PARAM ] array (
+  '/api/users/login' => '',
+  'phone' => 'admin',
+  'userpwd' => '123456',
+)
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\api\controller\Users->login[ E:\weixin\web\application\api\controller\Users.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-06T09:24:42+08:00 ] 192.168.1.222 192.168.1.222 POST /api/users/login
+[ info ] 192.168.1.222/api/users/login [运行时间：0.036005s][吞吐率：27.77req/s] [内存消耗：1,666.95kb] [文件加载：43]
+[ info ] [ LANG ] E:\weixin\web\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'users',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'accept-encoding' => 'gzip,deflate',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 4.4.2; Coolpad 5891 Build/JZO54K) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Mobile Safari/537.36 Html5Plus/1.0',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'file://',
+  'accept' => 'application/json',
+  'content-length' => '26',
+  'connection' => 'close',
+  'host' => '192.168.1.222',
+)
+[ info ] [ PARAM ] array (
+  '/api/users/login' => '',
+  'phone' => 'admin',
+  'userpwd' => '132456',
+)
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\api\controller\Users->login[ E:\weixin\web\application\api\controller\Users.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-06T09:25:10+08:00 ] 192.168.1.222 192.168.1.222 POST /api/users/login
+[ info ] 192.168.1.222/api/users/login [运行时间：0.038505s][吞吐率：25.97req/s] [内存消耗：1,667.16kb] [文件加载：43]
+[ info ] [ LANG ] E:\weixin\web\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'users',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'accept-encoding' => 'gzip,deflate',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 4.4.2; Coolpad 5891 Build/JZO54K) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Mobile Safari/537.36 Html5Plus/1.0',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'file://',
+  'accept' => 'application/json',
+  'content-length' => '26',
+  'connection' => 'close',
+  'host' => '192.168.1.222',
+)
+[ info ] [ PARAM ] array (
+  '/api/users/login' => '',
+  'phone' => 'admin',
+  'userpwd' => '132456',
+)
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\api\controller\Users->login[ E:\weixin\web\application\api\controller\Users.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-06T09:34:16+08:00 ] 192.168.1.222 192.168.1.222 POST /api/users/login
+[ info ] 192.168.1.222/api/users/login [运行时间：0.034005s][吞吐率：29.41req/s] [内存消耗：1,676.73kb] [文件加载：44]
+[ info ] [ LANG ] E:\weixin\web\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'users',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'accept-encoding' => 'gzip,deflate',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 4.4.2; Coolpad 5891 Build/JZO54K) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Mobile Safari/537.36 Html5Plus/1.0',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'file://',
+  'accept' => 'application/json',
+  'content-length' => '25',
+  'connection' => 'close',
+  'host' => '192.168.1.222',
+)
+[ info ] [ PARAM ] array (
+  '/api/users/login' => '',
+  'phone' => 'admin',
+  'userpwd' => 'admin',
+)
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.000500s ]
+[ info ] [ RUN ] app\api\controller\Users->login[ E:\weixin\web\application\api\controller\Users.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-06T09:35:53+08:00 ] 192.168.1.222 192.168.1.222 POST /api/users/login
+[ info ] 192.168.1.222/api/users/login [运行时间：0.026003s][吞吐率：38.46req/s] [内存消耗：1,676.80kb] [文件加载：44]
+[ info ] [ LANG ] E:\weixin\web\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'users',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'accept-encoding' => 'gzip,deflate',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 4.4.2; Coolpad 5891 Build/JZO54K) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Mobile Safari/537.36 Html5Plus/1.0',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'file://',
+  'accept' => 'application/json',
+  'content-length' => '25',
+  'connection' => 'close',
+  'host' => '192.168.1.222',
+)
+[ info ] [ PARAM ] array (
+  '/api/users/login' => '',
+  'phone' => 'admin',
+  'userpwd' => 'admin',
+)
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.000500s ]
+[ info ] [ RUN ] app\api\controller\Users->login[ E:\weixin\web\application\api\controller\Users.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-06T09:36:19+08:00 ] 192.168.1.222 192.168.1.222 POST /api/users/login
+[ info ] 192.168.1.222/api/users/login [运行时间：0.041005s][吞吐率：24.39req/s] [内存消耗：1,676.80kb] [文件加载：44]
+[ info ] [ LANG ] E:\weixin\web\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'users',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'accept-encoding' => 'gzip,deflate',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 4.4.2; Coolpad 5891 Build/JZO54K) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Mobile Safari/537.36 Html5Plus/1.0',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'file://',
+  'accept' => 'application/json',
+  'content-length' => '25',
+  'connection' => 'close',
+  'host' => '192.168.1.222',
+)
+[ info ] [ PARAM ] array (
+  '/api/users/login' => '',
+  'phone' => 'admin',
+  'userpwd' => 'admin',
+)
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.000500s ]
+[ info ] [ RUN ] app\api\controller\Users->login[ E:\weixin\web\application\api\controller\Users.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-06T09:37:29+08:00 ] 192.168.1.222 192.168.1.222 POST /api/users/login
+[ info ] 192.168.1.222/api/users/login [运行时间：0.041005s][吞吐率：24.39req/s] [内存消耗：1,676.80kb] [文件加载：44]
+[ info ] [ LANG ] E:\weixin\web\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'users',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'accept-encoding' => 'gzip,deflate',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 4.4.2; Coolpad 5891 Build/JZO54K) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Mobile Safari/537.36 Html5Plus/1.0',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'file://',
+  'accept' => 'application/json',
+  'content-length' => '25',
+  'connection' => 'close',
+  'host' => '192.168.1.222',
+)
+[ info ] [ PARAM ] array (
+  '/api/users/login' => '',
+  'phone' => 'admin',
+  'userpwd' => 'admin',
+)
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.000500s ]
+[ info ] [ RUN ] app\api\controller\Users->login[ E:\weixin\web\application\api\controller\Users.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-06T09:38:29+08:00 ] 192.168.1.222 192.168.1.222 POST /api/users/login
+[ info ] 192.168.1.222/api/users/login [运行时间：0.040005s][吞吐率：25.00req/s] [内存消耗：1,676.80kb] [文件加载：44]
+[ info ] [ LANG ] E:\weixin\web\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'users',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'accept-encoding' => 'gzip,deflate',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 4.4.2; Coolpad 5891 Build/JZO54K) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Mobile Safari/537.36 Html5Plus/1.0',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'file://',
+  'accept' => 'application/json',
+  'content-length' => '25',
+  'connection' => 'close',
+  'host' => '192.168.1.222',
+)
+[ info ] [ PARAM ] array (
+  '/api/users/login' => '',
+  'phone' => 'admin',
+  'userpwd' => 'admin',
+)
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\api\controller\Users->login[ E:\weixin\web\application\api\controller\Users.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File

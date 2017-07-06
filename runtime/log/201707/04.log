@@ -1,0 +1,86 @@
+---------------------------------------------------------------
+[ 2017-07-04T09:37:57+08:00 ] 192.168.1.222 192.168.1.222 GET /api/users/login
+[ info ] weixin.test.com/api/users/login [运行时间：0.101513s][吞吐率：9.85req/s] [内存消耗：1,091.61kb] [文件加载：36]
+[ info ] [ LANG ] E:\weixin\web\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'users',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'username=15505124589; userid=1317; Hm_lvt_aa2f9869e9b578122e4692de2bd9f80f=1498028937,1498039550,1498806587',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'close',
+  'host' => 'weixin.test.com',
+)
+[ info ] [ PARAM ] array (
+  '/api/users/login' => '',
+)
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.000500s ]
+[ info ] [ RUN ] app\api\controller\Users->login[ E:\weixin\web\application\api\controller\Users.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-04T09:37:57+08:00 ] 192.168.1.222 192.168.1.222 GET /favicon.ico
+[ info ] weixin.test.com/favicon.ico [运行时间：0.016002s][吞吐率：62.49req/s] [内存消耗：840.30kb] [文件加载：29]
+[ info ] [ LANG ] E:\weixin\web\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'username=15505124589; userid=1317; Hm_lvt_aa2f9869e9b578122e4692de2bd9f80f=1498028937,1498039550,1498806587',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://weixin.test.com/api/users/login',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'weixin.test.com',
+)
+[ info ] [ PARAM ] array (
+  '/favicon_ico' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-04T09:38:30+08:00 ] 192.168.1.222 192.168.1.222 GET /api/users/login
+[ info ] weixin.test.com/api/users/login [运行时间：0.016002s][吞吐率：62.49req/s] [内存消耗：1,091.80kb] [文件加载：36]
+[ info ] [ LANG ] E:\weixin\web\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'users',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'username=15505124589; userid=1317; Hm_lvt_aa2f9869e9b578122e4692de2bd9f80f=1498028937,1498039550,1498806587',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'weixin.test.com',
+)
+[ info ] [ PARAM ] array (
+  '/api/users/login' => '',
+)
+[ info ] [ BEHAVIOR ] Run hook\AccessAuth @action_begin [ RunTime:0.000500s ]
+[ info ] [ RUN ] app\api\controller\Users->login[ E:\weixin\web\application\api\controller\Users.php ]
+[ info ] [ LOG ] INIT File
